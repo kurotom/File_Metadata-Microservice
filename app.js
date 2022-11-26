@@ -51,7 +51,7 @@ app.get('/', (req, res) => {
 });
 
 
-app.post('/api/filedata', upload.single('upfile'), (req, res) => {
+app.post('/api/fileanalyse', upload.single('upfile'), (req, res) => {
   const fileUpload = req.file;
 
 
